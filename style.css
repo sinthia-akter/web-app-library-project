@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+.nav {
+    background-color: #34495e;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+}
+
+.nav ul li a:hover {
+    background-color: #2c3e50;
+}
+
+.search-section {
+    background-color: #ecf0f1;
+    padding: 2rem 0;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+}
+
+.search-container button {
+    padding: 0 1.5rem;
+    background-color: #526d89;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.search-container button:hover {
+    background-color: #283743;
+}
+
+.book-listing h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem 0 1.5rem;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    perspective: 1000px;
+    margin: 2rem 0;
+}
+
+.book-card {
+    width: 23%;
+    min-width: 160px;
+    max-width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.book-front, .book-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book-front {
+    justify-content: space-between;
+}
+
+.book-front img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.book-front .book-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.book-front p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.book-back {
+    transform: rotateY(180deg);
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.book-back h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.book-back p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.book-card.flipped {
+    transform: rotateY(180deg);
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    margin-top: auto;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+#fb:hover {
+    color: #3498db;
+}
+
+#tw:hover {
+    color: #000;
+}
+
+#ig:hover {
+    color: #e1306c;
+}
+
+#gr:hover {
+    color: #f4d35e;
+}

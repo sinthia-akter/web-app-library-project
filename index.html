@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Book Vault - A Library Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>The Book Vault</h1>
+            <p>Discover your next literary adventure</p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Genre</a></li>
+                <li><a href="#">Author</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="name" placeholder="Search by Title, Author or Country...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main container">
+        <div class="book-listing">
+            <h2>Our Collection</h2>
+            
+            <div class="books-container" id="books-container">
+                
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/916EaU54GlL._SL1500_.jpg" alt="Death on the Nile">
+                        <p class="book-title">Death on the Nile</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Agatha Christie</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>Hercule Poirot investigates a murder aboard a Nile cruise ship, uncovering secrets among the passengers.</p>
+                        <p><strong>Genre:</strong> Detective fiction</p>
+                        <p><strong>Country:</strong> United Kingdom</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Published Year:</strong> 1937</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/71qR+kG+43L._SL1400_.jpg" alt="The Metamorphosis">
+                        <p class="book-title">The Metamorphosis</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Franz Kafka</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>Gregor Samsa wakes up transformed into a giant insect and struggles to adjust to his new condition.</p>
+                        <p><strong>Genre:</strong> Absurdist fiction</p>
+                        <p><strong>Country:</strong> Germany</p>
+                        <p><strong>Original Language:</strong> German</p>
+                        <p><strong>Published Year:</strong> 1915</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/91HLXMKuOaL._SL1500_.jpg" alt="The Surgeon">
+                        <p class="book-title">The Surgeon</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Tess Gerritsen</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>A serial killer in Boston replicates the brutal methods of a deceased murderer, targeting Dr. Catherine Cordell.</p>
+                        <p><strong>Genre:</strong> Medical Thriller</p>
+                        <p><strong>Country:</strong> United States</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Published Year:</strong> 2001</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/81C-0uiddNL._SL1500_.jpg" alt="The Black Lizard">
+                        <p class="book-title">The Black Lizard</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Edogawa Ranpo</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>A master thief known as the Black Lizard engages in a battle of wits with detective Kogoro Akechi.</p>
+                        <p><strong>Genre:</strong> Gothic Horror</p>
+                        <p><strong>Country:</strong> Japan</p>
+                        <p><strong>Original Language:</strong> Japanese</p>
+                        <p><strong>Published Year:</strong> 1934</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/8105fcMAVyL._SL1500_.jpg" alt="The Housemaid">
+                        <p class="book-title">The Housemaid</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Freida McFadden</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>Millie, seeking a fresh start, accepts a live-in housemaid position with the affluent Winchester family. As she settles into their opulent home, she begins to sense that beneath the family's polished exterior lie unsettling secrets. Navigating a web of hidden truths and mounting tension, Millie must tread carefully to uncover the reality of her employers without jeopardizing her own safety. This gripping psychological thriller delves into themes of trust, deception, and the lengths one will go to protect themselves.</p>
+                        <p><strong>Genre:</strong> Psychological Thriller</p>
+                        <p><strong>Country:</strong> United States</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Published Year:</strong> 2022</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/41alKvN9GwL._SY522_.jpg" alt="No Longer Human">
+                        <p class="book-title">No Longer Human</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Osamu Dazai</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>Portraying himself as a failure, the protagonist of Osamu Dazai's No Longer Human narrates a seemingly normal life even while he feels himself incapable of understanding human beings. Oba Yozo's attempts to reconcile himself to the world around him begin in early childhood, continue through high school, where he becomes a "clown" to mask his alienation, and eventually lead to a failed suicide attempt as an adult. Without sentimentality, he records the casual cruelties of life and its fleeting moments of human connection and tenderness.</p>
+                        <p><strong>Genre:</strong> Psychological Fiction</p>
+                        <p><strong>Country:</strong> Japan</p>
+                        <p><strong>Original Language:</strong> Japanese</p>
+                        <p><strong>Year:</strong> 1948</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/51wbD+W3CbL.jpg" alt="White Nights">
+                        <p class="book-title">White Nights</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Fyodor Dostoevsky</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>Set against the dreamlike backdrop of a St. Petersburg summer, White Nights follows a solitary dreamer who encounters a mysterious young woman over the course of four brief nights. As they share confessions and hopes beneath the twilight sky, a fragile connection blossoms. Tender, melancholic, and emotionally rich, this novella explores the beauty and pain of fleeting human connection and the loneliness that lingers when it slips away.</p>
+                        <p><strong>Genre:</strong> Romantic Fiction</p>
+                        <p><strong>Country:</strong> Russia</p>
+                        <p><strong>Original Language:</strong> Russian</p>
+                        <p><strong>Year:</strong> 1848</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/81T34Sem-tL._SL1500_.jpg" alt="Wuthering Heights">
+                        <p class="book-title">Wuthering Heights</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Emily Brontë</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>On the stormy moors of Yorkshire, two neighboring families are bound by obsession, love, and revenge. Wuthering Heights is a dark and passionate tale of restless souls, where the wildness of nature mirrors the untamed emotions of its unforgettable characters. Mysterious, intense, and hauntingly poetic—it’s a novel that lingers in the mind long after the final page.</p>
+                        <p><strong>Genre:</strong> Gothic Fiction</p>
+                        <p><strong>Country:</strong> United Kingdom</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Year:</strong> 1847</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/81a3sr-RgdL._SL1500_.jpg" alt="Pride and Prejudice">
+                        <p class="book-title">Pride and Prejudice</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Jane Austen</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>In the refined world of Georgian England, Elizabeth Bennet faces societal pressures, family expectations, and the sharp-tongued allure of Mr. Darcy. As wit meets willpower, this beloved classic explores the clash between personal integrity and social ambition in a world where first impressions are rarely the whole story.</p>
+                        <p><strong>Genre:</strong> Romantic Fiction</p>
+                        <p><strong>Country:</strong> United Kingdom</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Year:</strong> 1813</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/81dO6Xw1ZPL._SL1500_.jpg" alt="Malice">
+                        <p class="book-title">Malice</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Keigo Higashino</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>When a renowned novelist is found murdered, Detective Kyoichiro Kaga delves into a labyrinth of motives and memories. As layers of deception unfold, Kaga must discern truth from illusion in this masterfully crafted psychological thriller.</p>
+                        <p><strong>Genre:</strong> Mystery / Crime Fiction</p>
+                        <p><strong>Country:</strong> Japan</p>
+                        <p><strong>Original Language:</strong> Japanese</p>
+                        <p><strong>Year:</strong> 1996</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/65a8d4817_127276.jpg" alt="Amazonia">
+                        <p class="book-title">Amazonia</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by James Rollins</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>When a mutilated ex-soldier emerges from the Amazon rainforest—years after his expedition vanished—bearing both arms despite having lost one prior, a new team is dispatched to uncover the truth. Led by Nathan Rand, whose father disappeared with the original group, the expedition ventures into a realm of lethal creatures, ancient tribes, and a mysterious force that could either save or doom humanity. As they delve deeper, they confront a world where science and myth intertwine, challenging their understanding of life and survival..</p>
+                        <p><strong>Genre:</strong> Adventure Thriller</p>
+                        <p><strong>Country:</strong> United States</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Year:</strong> 2002</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/41BXSOyMEjL._SY445_SX342_.jpg" alt="My Lovely Wife">
+                        <p class="book-title">My Lovely Wife</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Samantha Downing</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>In this darkly compelling debut, a seemingly ordinary suburban couple harbors a chilling secret that keeps their marriage alive in the most twisted way. As their façade of normalcy begins to crack, the line between love and obsession blurs, leading to a suspenseful tale that delves into the depths of marital intimacy and the secrets we keep.</p>
+                        <p><strong>Genre:</strong> Psychological Thriller</p>
+                        <p><strong>Country:</strong> United States</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Year:</strong> 2019</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1686922522i/52706058.jpg" alt="The Honjin Murders">
+                        <p class="book-title">The Honjin Murders</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Seishi Yokomizo</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>In a snowbound village in 1930s Japan, a wedding night is shattered by a gruesome murder inside a locked room, with strange clues left behind—a bloodied katana, mysterious fingerprints, and eerie music. Enter Kosuke Kindaichi, a brilliant but eccentric detective, who must unravel a web of family secrets and ancient traditions to solve one of Japan's most perplexing mysteries. Atmospheric and ingenious, The Honjin Murders is a classic locked-room puzzle that keeps readers guessing until the final reveal.</p>
+                        <p><strong>Genre:</strong> Mystery / Crime Fiction</p>
+                        <p><strong>Country:</strong> Japan</p>
+                        <p><strong>Original Language:</strong> Japanese</p>
+                        <p><strong>Year:</strong> 1946</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/416lUyEwujL._SY445_SX342_.jpg" alt="The Secret History">
+                        <p class="book-title">The Secret History</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Donna Tartt</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>At an elite New England college, a group of eccentric classics students falls under the influence of a charismatic professor—and gradually drift into a world of intellectual obsession, moral ambiguity, and hidden transgressions. As their bond deepens, so does the darkness surrounding them, until a shocking act shatters their fragile world. The Secret History is an elegant, slow-burning exploration of beauty, guilt, and the dangerous allure of ideas.</p>
+                        <p><strong>Genre:</strong> Psychological Fiction</p>
+                        <p><strong>Country:</strong> United States</p>
+                        <p><strong>Original Language:</strong> English</p>
+                        <p><strong>Year:</strong> 1992</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-front">
+                        <img src="https://m.media-amazon.com/images/I/613qkWCo2DL._SL1419_.jpg" alt="Kusamakura">
+                        <p class="book-title">Kusamakura</p>
+                        <p style="font-style: italic; color: rgb(145, 142, 142); font-family: 'Lora', serif;">by Natsume Sōseki</p>
+                    </div>
+                    <div class="book-back">
+                        <h3>Summary</h3>
+                        <p>A young artist retreats to a quiet mountain inn in search of solitude and inspiration, but instead finds himself reflecting deeply on the nature of art, beauty, and human emotion. As he observes the inn’s enigmatic hostess and the serene natural world around him, his thoughts drift between aesthetic detachment and emotional entanglement. Lyrical and meditative, Kusamakura offers a poetic journey through the mind of an artist seeking to live “as a poem itself.”</p>
+                        <p><strong>Genre:</strong> Philosophical Fiction</p>
+                        <p><strong>Country:</strong> Japan</p>
+                        <p><strong>Original Language:</strong> Japanese</p>
+                        <p><strong>Year:</strong> 1906</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2025 The Book Vault. All rights reserved.</p>
+            <div class="social-links">
+                <a id="fb" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a id="tw" href="https://x.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a id="ig" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a id="gr" href="https://www.goodreads.com/" target="_blank"><i class="fab fa-goodreads"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
