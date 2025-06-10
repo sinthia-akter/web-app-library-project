@@ -243,14 +243,16 @@ body {
         flex-direction: row;
         gap: 0;
     }
-    .search-container input,
-    .search-container button {
-        width: auto;
-        border-radius: 4px 0 0 4px;
+    .search-container input{
+        width: 70%;
+        border-radius: 4px;
+
     }
     .search-container button {
+        width: 30%;
         border-radius: 0 4px 4px 0;
     }
+    
     .books-container {
         flex-direction: column;
         gap: 18px;
