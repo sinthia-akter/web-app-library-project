@@ -238,14 +238,18 @@ body {
     .search-section {
         padding: 1rem 0;
     }
+    /* Keep search input and button side by side on mobile */
     .search-container {
-        flex-direction: column;
-        gap: 8px;
+        flex-direction: row;
+        gap: 0;
     }
     .search-container input,
     .search-container button {
-        width: 100%;
-        border-radius: 4px;
+        width: auto;
+        border-radius: 4px 0 0 4px;
+    }
+    .search-container button {
+        border-radius: 0 4px 4px 0;
     }
     .books-container {
         flex-direction: column;
